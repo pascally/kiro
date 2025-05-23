@@ -11,7 +11,7 @@ SIZE_CELL = 18
 
 URL = f'{PROTOCOL}{HOSTNAME}:{PORT}'
 
-USE_DUMMY = True
+USE_DUMMY = False
 
 
 def play_move(previous_board: Board, move: Union[MarkMove, CollapseMove]) -> PlayMoveResponse:
